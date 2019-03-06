@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PUPtracker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheets/tracker.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1>PUPtracker</h1>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div>
+                    <h3>INSTRUCTIONS</h3>
+                    <p class="directions">To track your pets activity, click an event icon to add it to the table.</p>
+                    <br>
+                    <h3>LEGEND</h3>
+                    <div class="lgndBox">
+                        <div><img src="../images/dog-food.png" class="lgnd"> Food <img src="../images/bath.png"
+                                class="lgnd"> Bath</div>
+                        <div><img src="../images/walk.png" class="lgnd"> Walk <img src="../images/medicine.png"
+                                class="lgnd"> Medicine</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div onclick="openNav()"><img src="../images/faq.png" class="menu"></div>
+        </div>
+
+        <div class="table">
+            <table id="myTable" class="centered highlight">
+                <thead>
+                    <tr>
+                        <th>Activity</th>
+                        <th>Time</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="key"><img src="../images/dog-food.png" onclick="foodFunction()" class="icon"></div>
+        <div class="key"><img src="../images/bath.png" onclick="bathFunction()" class="icon"></div>
+        <div class="key"><img src="../images/walk.png" onclick="walkFunction()" class="icon"></div>
+        <div class="key"><img src="../images/medicine.png" onclick="medFunction()" class="icon"></div>
+    </div>
+
+    <script src="../javascripts/tracker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

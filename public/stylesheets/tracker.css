@@ -1,0 +1,145 @@
+html {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.title {
+    font-size: 35px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: #222629;
+}
+
+/* The Overlay (background) */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    color: #adadad;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 1px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    right: 10px;
+    font-size: 40px;
+}
+
+.menu {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.key {
+    display: inline;
+    margin: 5px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.lgnd {
+    width: 50px;
+}
+
+.directions {
+    font-size: 25px;
+    padding: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.centered {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.buttons {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222629e0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.icon { transition: all .2s ease-in-out; }
+.icon:hover { transform: scale(1.1); }
+
+
+thead, tbody { display: block; }
+
+tbody {
+    height: 235px;       
+    overflow-y: auto;    
+    overflow-x: hidden;  
+}
+
+tbody td, thead th {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
