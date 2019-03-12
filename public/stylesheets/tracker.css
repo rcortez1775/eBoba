@@ -107,8 +107,8 @@ h3 {
     border-top-right-radius: 300px;
 }
 
-.icon { transition: all .2s ease-in-out; }
-.icon:hover { transform: scale(1.1); }
+/* .icon { transition: all .2s ease-in-out; }
+.icon:hover { transform: scale(1.1); } */
 
 
 thead, tbody { display: block; }
