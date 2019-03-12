@@ -14,15 +14,13 @@ html {
 }
 
 p {
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Londrina Solid', cursive;
   color: #222629;
   
 }
 
 .button {
-  background-color: #aaaaaa00;
-  color: #222629;
   padding: 15px 32px;
   display: inline-block;
   margin: 4px 2px;
@@ -66,10 +64,11 @@ p {
 .item-1, 
 .item-2, 
 .item-3 {
+  color: #000000;
 	position: absolute;
   display: block;
   width: 50%;
-  font-size: 2em;
+  font-size: 25px;
 	animation-duration: 10s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
