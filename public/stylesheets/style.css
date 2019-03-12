@@ -6,6 +6,10 @@ html {
   text-align: center;
 }
 
+.icon {
+  width: 50px;
+}
+
 .title {
   font-size: 95px;
   font-family: 'Londrina Solid', cursive;
@@ -69,7 +73,7 @@ p {
   display: block;
   width: 50%;
   font-size: 25px;
-	animation-duration: 10s;
+	animation-duration: 13s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 }
