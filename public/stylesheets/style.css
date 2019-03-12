@@ -1,9 +1,5 @@
 html {
-  background-image: url("../images/sky.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #bab2b5;
 }
 
 .intro {
@@ -13,8 +9,7 @@ html {
 .title {
   font-size: 110px;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  color: #222629;
-  text-shadow: 4px 3px 0px #0db2ff, 9px 8px 0px rgba(0, 0, 0, 0.11);
+  color: #000000;
   margin-bottom: 0;
 }
 
@@ -27,30 +22,18 @@ p {
 
 .button {
   background-color: #aaaaaa00;
-  border: 2px solid #222629;
   border-radius: 10px;
   color: #222629;
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-size: 20px;
-  font-weight: bold;
+  width: 225px;
 }
 
 .button:hover {
   color: #ffffff;
   background-color: #222629;
-}
-
-#pot {
-  bottom: -25px;
-  position: fixed;
-  width: 200px;
 }
