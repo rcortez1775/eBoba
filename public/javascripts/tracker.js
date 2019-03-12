@@ -8,6 +8,10 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
+function myFunction() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
 function foodFunction() {
     var currentDate = new Date(),
         day = currentDate.getDate(),
