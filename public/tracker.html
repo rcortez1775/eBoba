@@ -18,8 +18,9 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
                 <div>
-                    <h3>INSTRUCTIONS</h3>
-                    <p class="directions">To track your pets activity, click an event icon to add it to the table.</p>
+                    <h3>GETTING STARTED</h3>
+                    <p class="directions">To start tracking your pets activity, click an event icon to add it to the
+                        table.</p>
                     <br>
                     <h3>LEGEND</h3>
                     <div class="lgndBox">
@@ -53,13 +54,14 @@
         </div>
     </div>
 
-    <div class="buttons">
+    <a onclick="myFunction()" class="span"><img src="../images/menu.png" class="menuBtn"></a>
+    <div id="buttons">
         <div class="key"><img src="../images/dog-food.png" onclick="foodFunction()" class="icon"></div>
         <div class="key"><img src="../images/bath.png" onclick="bathFunction()" class="icon"></div>
+        <div class="key2"></div>
         <div class="key"><img src="../images/walk.png" onclick="walkFunction()" class="icon"></div>
         <div class="key"><img src="../images/medicine.png" onclick="medFunction()" class="icon"></div>
     </div>
-
 
     <script src="../javascripts/tracker.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

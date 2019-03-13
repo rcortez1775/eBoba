@@ -8,10 +8,6 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-function myFunction() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-
 function foodFunction() {
     var currentDate = new Date(),
         day = currentDate.getDate(),
@@ -134,4 +130,13 @@ function medFunction() {
     cell1.innerHTML = "Meds";
     cell2.innerHTML = hours + ":" + minutes + " " + suffix;
     cell3.innerHTML = month + "/" + day + "/" + year;
+}
+
+function myFunction() {
+    var x = document.getElementById("buttons");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
