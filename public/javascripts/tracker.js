@@ -3,6 +3,11 @@ function displayNav() {
     nav.style.width = nav.style.width == '100%' ? '0%' : '100%';
 }
 
+function myFunction() {
+    var x = document.getElementById("buttons");
+    x.style.display = x.style.display === 'none' ? 'block' : 'none';
+}
+
 function foodFunction() {
     var currentDate = new Date(),
         day = currentDate.getDate(),
@@ -125,9 +130,4 @@ function medFunction() {
     cell1.innerHTML = "Meds";
     cell2.innerHTML = hours + ":" + minutes + " " + suffix;
     cell3.innerHTML = month + "/" + day + "/" + year;
-}
-
-function myFunction() {
-    var x = document.getElementById("buttons");
-    x.style.display = x.style.display === 'none' ? 'block' : 'none';
 }
