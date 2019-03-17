@@ -82,6 +82,8 @@ html {
     width: 50px;
 }
 
+
+
 .icon {
     width: 50px;
 }
@@ -95,7 +97,7 @@ html {
     padding: 10px;
 }
 
-h3 {
+h5 {
     text-decoration: underline;
 }
 
@@ -118,8 +120,8 @@ h3 {
 
 .span {
     cursor: pointer;
+    position: fixed;
     z-index: 3;
-    position: absolute;
     /*newly added*/
     bottom: 10px;
     /*newly added*/
